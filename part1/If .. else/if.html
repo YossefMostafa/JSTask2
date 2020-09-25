@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IF .. else</title>
+</head>
+<body>
+    <p>Right Click --> Inspect --> Console</p> 
+<script>
+    function getGrade(score){
+        let grade ;
+        if (score <=5) {
+            grade= 'F';
+    } 
+    else if (score <=10) {
+        grade='E';
+    }
+    else if (score <=15){
+        grade='D';
+    }
+    else if (score <=20){
+        grade='C';
+    }
+    else if (score <=25){
+        grade= 'B';
+    }
+    else if (score <=30){
+        grade= 'A';
+    }
+    return grade;
+    }
+    console.log(getGrade(11));
+</script>
+</body>
+</html>

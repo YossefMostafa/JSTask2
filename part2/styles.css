@@ -1,0 +1,14 @@
+button{
+    width: 100px;
+    height: 70px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+}
+button:hover{
+    background-color: red;
+}
+p{
+    width: 400px;
+    box-shadow: 1px 1px 1px black;
+}
